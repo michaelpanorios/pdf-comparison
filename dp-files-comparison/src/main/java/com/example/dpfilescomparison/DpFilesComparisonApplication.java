@@ -53,7 +53,7 @@ public class DpFilesComparisonApplication {
                     System.out.println((i+1) + ")" + tmpList.get(i));
                 }
 
-                System.out.println("Content from "+ FilenameUtils.getName(filePaths[1]) +" which "+ FilenameUtils.getName(filePaths[0]) + " doesn't include.");
+                System.out.println("\nContent from "+ FilenameUtils.getName(filePaths[1]) +" which "+ FilenameUtils.getName(filePaths[0]) + " doesn't include.");
 
                 tmpList = list2;
                 tmpList.removeAll(list1);
